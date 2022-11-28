@@ -182,6 +182,20 @@ class Dongari(ListView):
         context = super(Dongari, self).get_context_data()
 
         return context
+    
+class DongUpdate(LoginRequiredMixin, UpdateView):  # 게시물 수정하는 기능 추가
+    model = Dong
+    fields = ['동아리명', '동아리내용', '요약문', '동아리로고',
+              '활동사진']  # Post 모델에 사용할 제목, 요약문, 내용 등
+
+    template_name = 'blog/dong_update_form.html'  # 템플릿 파일은 post_update_form.html로 설정
+
+    def dispatch(self, request, *args, **kwargs):
+        if request.user.is_authenticated and request.user == self.get_object().작성자:  # 로그인한 유저가 게시물 작성자와 같으면
+            # 게시물 수정 가능
+            return super(DongUpdate, self).dispatch(request, *args, **kwargs)
+        else:
+            raise PermissionDenied  # 그렇지 않으면 오류    
 
 
 class DongSearch(Dongari):
