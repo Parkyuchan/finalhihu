@@ -1,85 +1,153 @@
 <style>
-    footer{
+  footer {
     width: 100%;
     bottom: 0;
-}
+  }
 
-.header_profile{ 
+  .header_profile {
     height: 70vmax;
     background-image: url(../hihucss/hanseoLogoGray.jpg);
     background-size: 50vmin 50vmin;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.carousel{
-  vertical-align: middle;
-  height: 65vh;
-  color: black;
-  background-color: white;
-}
-.carousel-caption{
-  vertical-align: middle;
-  height: 100%;
-}
-.carousel-inner{
-  margin-top : 10vh;
-  padding-bottom: 3vh;
-  height: 100%;
-}
-.carousel-item{
-  margin-top: 25vh;
-  height: 100%;
-}
+  }
+
+  .carousel {
+    vertical-align: middle;
+    height: 65vh;
+    color: black;
+    background-color: white;
+  }
+
+  .carousel-caption {
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  .carousel-inner {
+    margin-top: 10vh;
+    padding-bottom: 3vh;
+    height: 100%;
+  }
+
+  .carousel-item {
+    margin-top: 25vh;
+    height: 100%;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
 </style>
+
 <body>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div id="myCarousel" class="club carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFFFFF"/></svg>
+    <div class="carousel-inner" style="color: black;">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#FFFFFF" />
+        </svg>
 
-          <!--<img src="..." class="d-block w-100" alt="Hello">-->
-          <div class="carousel-caption d-none d-md-block" style="color: black;" >
+        <div class="container">
+          <div class="carousel-caption">
             <h1>총학생회 투표 일정 안내</h1>
-          <p>투표 기간 : 11.29 ~ 11.30</p>
-          <p>투표 장소(서산) : 학생회관 1층</p>
-          <p>투표 장소(태안) : 본관 목업실</p>
-          <p>준비물 : 힉생증 또는 신분증</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFFFFF"/></svg>
-
-          <!--<img src="..." class="d-block w-100" alt="Hello">-->
-          <div class="carousel-caption d-none d-md-block" style="color: black;">
-            <h1>대의원회 투표 일정 안내</h1>
-          <p>투표 기간 : 12.7</p>
-          <p>투표 장소 : 인곡관 문화홀</p>
-          <p>투표 대상 : 신학회장</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFFFFF"/></svg>
-
-          <!--<img src="..." class="d-block w-100" alt="Hello">-->
-          <div class="carousel-caption d-none d-md-block" style="color: black;">
-            <h1>강의평가 일정 안내</h1>
-          <p>평가 기간 : 11.28 ~ 12.9</p>
-          <p>평가 방법 : 한서포탈 -> 교육통합정보시스템 -> 성적 -> 강의평가</p>
+            <p>투표 기간 : 11.29 ~ 11.30</p>
+            <p>투표 장소(서산) : 학생회관 1층</p>
+            <p>투표 장소(태안) : 본관 목업실</p>
+            <p>준비물 : 힉생증 또는 신분증</p>
           </div>
         </div>
       </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#FFFFFF" />
+        </svg>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>대의원회 투표 일정 안내</h1>
+            <p>투표 기간 : 12.7</p>
+            <p>투표 장소 : 인곡관 문화홀</p>
+            <p>투표 대상 : 신학회장</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#FFFFFF" />
+        </svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>강의평가 일정 안내</h1>
+            <p>평가 기간 : 11.28 ~ 12.9</p>
+            <p>평가 방법 : 한서포탈 -> 교육통합정보시스템 -> 성적 -> 강의평가</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
