@@ -18,4 +18,3 @@
 11. 문의 메일 전송
 12. 학교 홈페이지
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d0116920-d839-4537-ab7a-e82bbcbb8517/fa0e3bc2-8ee9-48e9-82b1-73bafd6d22ba/image.png)
