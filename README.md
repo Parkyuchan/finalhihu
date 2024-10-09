@@ -4,6 +4,9 @@
 
 일 평균 방문자 수 : 약 100명
 
+사용 Framework : Django
+사용 Language : Python, HTML, CSS
+
 내용 : 
 1. 교내 사무실 정보
 2. 교내 사무실 전화
