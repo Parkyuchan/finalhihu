@@ -1,9 +1,9 @@
 # 한서대학교 학생들을 위한 학교 생활 서비스
 
 **서비스 기간**: 2022. 11.15 ~ 2022.12.23  
-**일 평균 방문자 수**: 약 100명  
-**사용 Framework**: Django  
-**사용 Language**: Python, HTML, CSS  
+**일 평균 방문자 수**: 약 50명  
+**사용 Framework**: <img src="https://img.shields.io/badge/Django-3766AB?style=flat-square&logo=Django&logoColor=white"/>  
+**사용 Language**: <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>, <img src="https://img.shields.io/badge/HTML-3766AB?style=flat-square&logo=HTML&logoColor=white"/>, <img src="https://img.shields.io/badge/CSS-3766AB?style=flat-square&logo=CSS&logoColor=white"/>  
 
 **내용**:
 1. 교내 사무실 정보
