@@ -1,4 +1,4 @@
-# 한서대학교 학생들을 위한 학교 생활 서비스
+# 학교 생활 서비스
 
 **서비스 기간**: 2022. 11.15 ~ 2022.12.23  
 **일 평균 방문자 수**: 약 50명  
@@ -56,4 +56,3 @@
 
 ### - 주변 식당 정보
 <img src="https://github.com/user-attachments/assets/ae8c7ce5-9665-4072-98ff-ebaec74bfa14" width="30%">
-<img src="https://github.com/user-attachments/assets/019f03d2-6fef-44b8-a6bd-e67e67456386" width="30%">
