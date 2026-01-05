@@ -34,9 +34,6 @@
 
 ### - 메뉴 목록
 <img src="https://github.com/user-attachments/assets/80bd5d80-32b6-43c0-a19d-a820da66e39a" width="30%">
-<img src="https://github.com/user-attachments/assets/c8b56edd-bb0c-40d1-8424-53eb200ee8d8" width="30%">
-<img src="https://github.com/user-attachments/assets/32f3c66d-0526-4545-9084-d452727167c1" width="30%">
-<img src="https://github.com/user-attachments/assets/308da7c2-1252-46e3-a6d5-c77bd63cd3c3" width="30%">
 
 ### - 학부 및 학과 정보
 <img src="https://github.com/user-attachments/assets/754c8931-f7d7-44d7-bed1-07861963664d" width="30%">
